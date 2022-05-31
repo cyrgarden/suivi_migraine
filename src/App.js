@@ -17,21 +17,21 @@ import Summary from './Components/summary/Summary';
 function App() {
   return (
     
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route exact path='/suivi_migraine' component={<Home />} />
-        <Route exact path ='/login' element={<Login />} />
-        <Route exact path='/signup' element ={<SignUp />} />
-        <Route exact path='/main' element ={<MainPage />} />
-        <Route exact path='/add' element ={<MigrainesAdder />} />
-        <Route exact path='/calendar' element ={<CalendarBox />} />
-        <Route exact path='/graph' element ={<Graph />} />
-        <Route exact path='/profil' element ={<Profil />} />
+        <Route exact path ='/suivi_migraine/login' element={<Login />} />
+        <Route exact path='/suivi_migraine/signup' element ={<SignUp />} />
+        <Route exact path='/suivi_migraine/main' element ={<MainPage />} />
+        <Route exact path='/suivi_migraine/add' element ={<MigrainesAdder />} />
+        <Route exact path='/suivi_migraine/calendar' element ={<CalendarBox />} />
+        <Route exact path='/suivi_migraine/graph' element ={<Graph />} />
+        <Route exact path='/suivi_migraine/profil' element ={<Profil />} />
 
 
 
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
 
   );
 }
