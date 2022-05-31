@@ -1,0 +1,490 @@
+.add-migraine .back-button {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	transform: translate(-10%, -5%);
+}
+
+/* .add-migraine .next-button {
+	position: absolute;
+	bottom: 5%;
+	right: 10%;
+	transform: translate(-10%, -5%);
+	height: 30px;
+	width: 50px;
+} */
+
+.add-migraine .next-button {
+	/* bottom: 5%; */
+	/* left: 70%; */
+	transform: translate(-10%, -5%);
+	height: 30px;
+	width: 50px;
+	margin-right: 32px;
+	margin-top: 9px;
+	align-self: end;
+}
+
+.next-button img {
+	height: 100%;
+}
+
+img.inverse {
+	transform: rotate(180deg);
+}
+
+
+/* Migraine layout */
+body.full-container.add-migraine {
+	padding-top: 22%;
+	justify-content: flex-start;
+}
+
+nav.steps {
+	display: flex;
+	width: 250px;
+	height: 50px;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	align-self: center;
+}
+
+.step-circle {
+	background-color: #E7DADD;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+}
+
+.step-separator {
+	background-color: #E7DADD;
+	height: 2px;
+	width: 59px;
+}
+
+.step-circle.active {
+	background-color: #5130B1;
+}
+
+/* input des migraines */
+
+section.xl-container.migraine-informations {
+	display: flex;
+	flex-direction: column;
+}
+
+.add-migraine header {
+	padding: 20px 40px 10px 50px;
+}
+
+.add-migraine header h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.add-migraine header h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 41px;
+	color: #E7DADD;
+	margin-bottom: 30px;
+}
+
+.add-migraine .migraine-informations .migraine-info {
+	background: #545558;
+	border-radius: 8px;
+	padding: 10px 10px 20px 10px;
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	margin-bottom: 25px;
+}
+
+.add-migraine .migraine-informations .migraine-info h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	color: #E7DADD;
+	margin-left: 10px;
+}
+
+.migraine-info p {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+	margin-left: 25px;
+}
+
+
+
+section.full-container.pain-types {
+	height: 150px;
+	background: rgb(208 208 208 / 8%);
+	background-blend-mode: overlay;
+	width: 400vw;
+	display: flex;
+	overflow: scroll;
+	align-content: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 0rem;
+}
+
+.pain-types .pain {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	background: #E7DADD;
+	border: 2px solid #5130B1;
+	border-radius: 8px;
+	margin-left: 20px;
+	text-decoration: none;
+	color :black;
+	font-family: inter;
+	opacity: 0.5;
+}
+
+.pain-types .pain.selected {
+	border-color: #23155f;
+/* 	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 8px 4px 4px rgba(0, 0, 0, 0.25);
+ */	opacity: 1;
+}
+
+/* MIGRAINE: INTENSITÉ */
+
+section.full-container.pain-localization {
+	background: rgb(208 208 208 / 8%);
+	background-blend-mode: overlay;
+	margin-bottom: 50px;
+	display: flex;
+	width: 100vw;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	flex-direction: row;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: space-evenly;
+}
+
+.pain-localization .head-position {
+	background: #E7DADD;
+	border: 2px solid #155F33;
+	border-radius: 8px;
+	width: 100px;
+	height: 100px;
+	/* margin-left: 20px; */
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.6;
+}
+
+.pain-localization .head-position.selected {
+	opacity: 1;
+}
+.pain-localization .head-position img {
+	width: 80%;
+}
+
+/* STEP 3 
+MIGRAINE MÉTHODES ET FACTEURS
+ */
+
+ 
+ section.xl-container.migraine-complements {
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+	 align-content: center;
+	 align-items: center;
+	 justify-content: center;
+ }
+  
+  .migraine-complement {
+	  height: 170px;
+	  background-color: #545558;
+	  border-radius: 32px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: space-evenly;
+	  margin-bottom: 30px;
+	  padding-bottom: 20px;
+  }
+  
+ .migraine-complement h1 {
+	 font-family: 'Inter';
+	 font-style: normal;
+	 font-weight: 700;
+	 font-size: 24px;
+	 line-height: 29px;
+	 text-align: center;
+	 color: #FFFFFF;
+ }
+ 
+ .migraine-complement a {
+	 width: 60px;
+	 height: 60px;
+	 background: #5130B1;
+	 border: 2px solid #E7DADD;
+	 border-radius: 90px;
+	 display: flex;
+	 justify-content: center;
+ }
+ 
+ .migraine-complement a img {
+	 width: 35px;
+ }
+ 
+ 
+ /* MINI POPUP POUR LES FACTEURS MIGRAINE ET SOLUTION */
+ 
+ section.window {
+	 position: fixed;
+	 height: 70vh;
+	 background-color: black;
+	 z-index: 4;
+	 bottom: 0;
+	 width: 100vw;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 border-radius: 35px 35px 0px 0px;
+	 overflow: hidden;
+	 transition: transform .5s;
+ }
+ 
+ 
+ 
+ .window a.close-window {
+	 position: absolute;
+	 top: 6%;
+	 left: 10%;
+	opacity: .6;
+ }
+
+ .window a.close-window:active {
+	  opacity: 1;
+  }
+   
+ .close-window img {
+	  width: 25px;
+  }
+ 
+ .window .btn-confirm {
+	 position: absolute;
+	 bottom: 5%;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 width: 270px;
+ }
+ 
+ .window div {
+	  display: flex;
+	  width: 90%;
+	  height: 65%;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  flex-direction: row;
+	  padding-top: 20%;
+  }
+ 
+ .window div a {
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+	 align-items: center;
+	 height: 120px;
+	 width: 110px;
+	 text-decoration: none;
+	 justify-content: space-around;
+	 font-family: 'Inter';
+	 font-style: normal;
+	 font-weight: 500;
+	 font-size: 14px;
+	 line-height: 19px;
+	 text-align: center;
+	 color: #FFFFFF;
+	 opacity: 0.7;
+	 transition: .5s;
+ }
+ 
+ .window div a.selected {
+	 opacity: 1;
+ }
+ 
+ .window div a img {
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+	 align-items: center;
+	 height: 45px;
+	 width: 45px;
+	 background: #282930;
+	 border: 2px solid #E7DADD;
+	 border-radius: 90px;
+	 padding: 20px;
+ }
+ 
+ /* OVERLAY */
+.overlay {
+	 position: absolute;
+	 background: rgba(43, 43, 43, 0.6);
+	 width: 100vw;
+	 height: 100vh;
+	 z-index: 1;
+	 display: none;
+ }
+ 
+ .overlay.overlay-on {
+	 display: block;
+ }
+
+
+
+
+ .inverse{
+	 transform: rotate(180deg);
+ }
+
+
+ body{
+	 height: 60%;
+ }
+
+
+
+.modal {
+		background-color: #38393C;
+		opacity:98%;
+		z-index: 6;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 69vh;
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		border-radius :35px 35px 0px 0px ;
+	}
+	
+.modal-content {
+	display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 20%;
+	}
+	
+.modal-content .facteur {
+		display: flex;
+		 flex-direction: column;
+		 flex-wrap: wrap;
+		 align-items: center;
+		 height: 120px;
+		 width: 110px;
+		 text-decoration: none;
+		 justify-content: space-around;
+		 font-family: 'Inter';
+		 font-style: normal;
+		 font-weight: 500;
+		 font-size: 14px;
+		 line-height: 19px;
+		 text-align: center;
+		 color: #FFFFFF;
+		 opacity: 0.7;
+		 transition: .5s;
+	}
+	
+.modal-content .facteur.selected {
+		opacity: 1;
+	}
+	
+.modal-content .facteur img {
+		display: flex;
+		 flex-direction: column;
+		 flex-wrap: wrap;
+		 align-items: center;
+		 height: 45px;
+		 width: 45px;
+		 background: #282930;
+		 border: 2px solid #E7DADD;
+		 border-radius: 90px;
+		 padding: 20px;
+	}
+
+	.modal .btn-confirm {
+		 position: absolute;
+		 bottom: 5%;
+		 left: 50%;
+		 transform: translateX(-50%);
+		 width: 270px;
+	 }
+
+
+	.modal-content .facteur.selected img{
+		opacity: 1;
+		border: 5px #5130B1 solid  ;
+	}
+
+.modal .close-modal {
+	position: absolute;
+	 top: 6%;
+	 left: 10%;
+	opacity: .6;
+}
+
+
+section.full-container.pain-lateral {
+	height: 150px;
+	background: rgb(208 208 208 / 8%);
+	background-blend-mode: overlay;
+	width: 400vw;
+	display: flex;
+	overflow: scroll;
+	align-content: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.pain-lateral .pain {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	background: #E7DADD;
+	border: 2px solid #5130B1;
+	border-radius: 8px;
+	margin-left: 20px;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.pain-lateral .pain.selected {
+	background: #e7daddbf;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 8px 4px 4px rgba(0, 0, 0, 0.25);
+	opacity: 1;
+}

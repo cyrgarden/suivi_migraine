@@ -1,0 +1,143 @@
+
+.widgets {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+article.widget {
+	width: 100%;
+	background: rgba(4, 5, 5, 0.7);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.widget-title {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.widget-content {
+	padding: 5px;
+}
+
+.widget-content div {
+	margin-bottom: 10px;
+}
+
+.widget .widget-footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 15px;
+}
+
+.widget-footer a {
+	text-align: center;
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border-radius: 50px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.widget-heart .widget-footer .selected {
+	background-color: #5130B1;
+}
+
+/* WIDGET RESUME */
+.widget-sumup .widget-line {
+	background: #020203;
+	background-blend-mode: overlay;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.widget-stacked {
+	background: #020203;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-bottom: 7px;
+}
+
+.widget-stacked .progress {
+	margin-top: 10px;
+	background-color: #e7e2da;
+	width: 90px;
+	height: 10px;
+	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.widget-stacked .progress .progress-bar {
+	height: 100%;
+	width: 70%;
+	background-color: #155F33;
+	position: absolute;
+}
+
+.progress-scale {
+	width: 90px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* WIDGET FACTEURS */
+.widget-factors article {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.widget-factors article .left-progress img {
+	width: 100%;
+}
+
+.widget-factors article .right-details {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+/* WIDGET HEART */
+.widget-heart .widget-content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.widget-heart .widget-content img {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.widget-heart .widget-content h3 {
+	font-size: 18px;
+	color: #e7e2da;
+}
+
+.widget-heart .widget-content h3 span {
+	text-transform: uppercase;
+	font-size: 10px;
+}

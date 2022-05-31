@@ -1,0 +1,137 @@
+.personnal-datas {
+	align-items: flex-start;
+}
+
+.personnal-datas h2 {
+	font-size: 25px;
+	text-align: left;
+}
+
+.personnal-datas p {
+	margin: 0px 0px 20px 0px;
+}
+
+.personnal-datas fieldset {
+	display: flex;
+	margin: 0;
+	border: 0;
+	padding: 0px;
+	flex-direction: column;
+	align-items: stretch;
+	margin-top: 20px;
+}
+
+fieldset label {
+	font-size: 18px;
+	color: #e7e2dac4;
+}
+
+
+
+fieldset input {
+	margin-top: 0px;
+	width: 300px;
+	height: 50px;
+	background: none;
+	border: none;
+	color: white;
+	font-size: 20px;
+	color: #E7E2DA;
+	border-bottom: 2px #c4c4c4a8 solid;
+	transition: all .5s ease;
+}
+
+fieldset input:focus {
+	border-color: white;
+	color: white;
+}
+
+fieldset input:focus-visible {
+	outline: 0;
+}
+
+fieldset.header-field {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+fieldset.header-field label {
+	font-size: 20px;
+	color: #E7E2DA;
+	font-weight: 700;
+}
+
+fieldset input[type="checkbox"] {
+	height: 35px;
+	width: 70px;
+}
+
+fieldset.header-field label {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+fieldset.header-field input[type="checkbox"] {
+	height: 35px;
+	width: 70px;
+}
+
+/* SWITCH AUTORISATIONS */
+fieldset.switches {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+fieldset.switches label 
+{
+	color: #E7E2DA;
+}
+
+.switch {
+  position: relative;
+  width: 70px;
+  height: 30px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #7A7F6D;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  left: 5px;
+  background-color: #E7DADD;
+  transition: .4s;
+  border-radius: 50px;
+}
+
+.switch input:checked + .slider {
+  background-color: #155F33;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(40px);
+}

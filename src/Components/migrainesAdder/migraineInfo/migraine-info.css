@@ -1,0 +1,93 @@
+.activated {
+    background: #bc0530bf;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+input{
+    padding: -0px !important;
+    margin-top: 42px;   
+}
+
+
+
+#input[type="range"] {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    margin-left: 69px
+  }
+  
+  /* Input Thumb */
+  #input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #030202;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+  }
+  
+  #input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 60px;
+    border-radius: 50%;
+    background: #070605;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+  }
+  
+  #input[type="range"]::-ms-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #ff4500;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+  }
+  
+  
+  
+  
+  /* Input Track */
+  #input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  
+  #input[type=range]::-moz-range-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  
+  #input[type="range"]::-ms-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+
+  #intensity-value {
+      font-family:inter;
+      font-weight: bolder;
+      padding-left: 8.99em;
+      
+  }
+
+

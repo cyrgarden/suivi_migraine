@@ -1,0 +1,28 @@
+.autorisation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 50vh;
+	justify-content: center;
+}
+
+.autorisation .autorisation-img {
+	width: 80px;
+}
+
+.autorisation article.autorisation-content {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.autorisation-content .autorisation-header {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.autorisation-content .autorisation-link {
+	margin: 0;
+	text-align: center;
+}

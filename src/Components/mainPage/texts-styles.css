@@ -1,0 +1,57 @@
+/* LES TEXTES SUR LES PAGES */
+
+.main-h1 
+{
+	font-weight: 600;
+	font-size: 28px;
+	color: #E7E2DA;
+}
+
+.text-centered
+{
+	text-align: center;
+}
+
+
+/* LES TEXTES DES WIDGETS */
+
+.widget-title {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: #E7E2DA;
+}
+
+.widget-content {
+	font-size: 8px;
+}
+
+.widget-content span {
+	color: #E7E2DA;
+}
+
+.widget-sumup .widget-line h4 {
+	padding-left: 10px;
+	font-size: 8px;
+	font-weight: 500;
+}
+
+.widget-sumup .widget-line span {
+	padding-left: 5px;
+	font-weight: 700;
+}
+
+.widget-stacked h4 {
+	font-size: 8px;
+	font-weight: 500;
+}
+
+.widget-stacked span {
+	font-weight: 700;
+}
+
+.progress-scale span {
+	font-size: 5px;
+	font-weight: 400;
+}
