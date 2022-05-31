@@ -17,7 +17,7 @@ import Summary from './Components/summary/Summary';
 function App() {
   return (
     
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route exact path='/suivi_migraine' component={<Home />} />
         <Route exact path ='/suivi_migraine/login' element={<Login />} />
@@ -31,7 +31,7 @@ function App() {
 
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }
