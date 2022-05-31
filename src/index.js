@@ -29,9 +29,7 @@ console.log(Store.getState())
 root.render(
   <React.StrictMode>
     <Provider store={Store}>
-      <Router>
       <App />
-      </Router>
     </Provider>
   </React.StrictMode>
 );

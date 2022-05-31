@@ -1,11 +1,10 @@
-import {BrowserRouter, HashRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import {HashRouter} from 'react-router-dom'
 import './index.css'
 import Home from './Components/home/Home';
 import Login from './Components/login/Login';
 import SignUp from './Components/signup/SignUp';
 import MigrainesAdder from './Components/migrainesAdder/MigrainesAdder.jsx';
-import CalendarBox from './Cosmponents/calendar/CalendarBox';
 import MainPage from './Components/mainPage/MainPage';
 import Graph from './Components/graph/Graph';
 import Profil from './Components/profile/Profil.jsx';
@@ -19,16 +18,13 @@ function App() {
     
     <HashRouter>
       <Routes>
-        <Route exact path='/suivi_migraine' component={<Home />} />
-        <Route exact path ='/suivi_migraine/login' element={<Login />} />
-        <Route exact path='/suivi_migraine/signup' element ={<SignUp />} />
-        <Route exact path='/suivi_migraine/main' element ={<MainPage />} />
-        <Route exact path='/suivi_migraine/add' element ={<MigrainesAdder />} />
-        <Route exact path='/suivi_migraine/calendar' element ={<CalendarBox />} />
-        <Route exact path='/suivi_migraine/graph' element ={<Graph />} />
-        <Route exact path='/suivi_migraine/profil' element ={<Profil />} />
-
-
+        <Route exact path='/' element={<Home />} />
+        <Route exact path ='/login' element={<Login />} />
+        <Route exact path='/signup' element ={<SignUp />} />
+        <Route exact path='/main' element ={<MainPage />} />
+        <Route exact path='/' element ={<MigrainesAdder />} />
+        <Route exact path='/graph' element ={<Graph />} />
+        <Route exact path='/profil' element ={<Profil />} />
 
       </Routes>
     </HashRouter>
