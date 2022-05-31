@@ -2,7 +2,7 @@
   "name": "tech-projet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cyrgarden.github.io/suivi_migraine",
+  "homepage": "https://cyrgarden.github.io/suivi_migraine/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
