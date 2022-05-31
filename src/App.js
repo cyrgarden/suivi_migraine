@@ -1,11 +1,11 @@
-import {BrowserRouter, BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, HashRouter as Router, Route, Routes} from 'react-router-dom'
 import {HashRouter} from 'react-router-dom'
 import './index.css'
 import Home from './Components/home/Home';
 import Login from './Components/login/Login';
 import SignUp from './Components/signup/SignUp';
 import MigrainesAdder from './Components/migrainesAdder/MigrainesAdder.jsx';
-import CalendarBox from './Components/calendar/CalendarBox';
+import CalendarBox from './Cosmponents/calendar/CalendarBox';
 import MainPage from './Components/mainPage/MainPage';
 import Graph from './Components/graph/Graph';
 import Profil from './Components/profile/Profil.jsx';

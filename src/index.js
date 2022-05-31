@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter, HashRouter as Router, Route, Routes} from 'react-router-dom'
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -28,7 +29,9 @@ console.log(Store.getState())
 root.render(
   <React.StrictMode>
     <Provider store={Store}>
+      <Router>
       <App />
+      </Router>
     </Provider>
   </React.StrictMode>
 );
