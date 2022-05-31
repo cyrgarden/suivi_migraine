@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/suivi_migraine/static/css/main.67f87f16.css",
+    "main.js": "/suivi_migraine/static/js/main.dfff75e8.js",
+    "static/js/787.f15cc3ff.chunk.js": "/suivi_migraine/static/js/787.f15cc3ff.chunk.js",
+    "static/media/x-redmi-watch-2-lite.png": "/suivi_migraine/static/media/x-redmi-watch-2-lite.c8a1081bbb323f813620.png",
+    "static/media/heart.svg": "/suivi_migraine/static/media/heart.e1665c9a590e25b90ecab7ba1358bcc8.svg",
+    "static/media/pulsatile.svg": "/suivi_migraine/static/media/pulsatile.4c26afe58876c96a3363bec75b2c3aef.svg",
+    "static/media/bilateral.svg": "/suivi_migraine/static/media/bilateral.f5806c4144ad9133d4dbe7349e761cd6.svg",
+    "static/media/gauche.svg": "/suivi_migraine/static/media/gauche.10a57774eba4980f4a16d1222c346c1d.svg",
+    "static/media/droite.svg": "/suivi_migraine/static/media/droite.07fef005fbe0d0aec3c9713efefd9458.svg",
+    "static/media/battery.svg": "/suivi_migraine/static/media/battery.aa5f0a0f34bb794018166ec4f5a8f249.svg",
+    "static/media/mdi_head.svg": "/suivi_migraine/static/media/mdi_head.4e780c63736df34b36aa17392613f207.svg",
+    "static/media/close.svg": "/suivi_migraine/static/media/close.0845454fa361de16b5730ac727b777cf.svg",
+    "static/media/dots.svg": "/suivi_migraine/static/media/dots.a206880d62a5c49cb98ae1f7fc6beea4.svg",
+    "index.html": "/suivi_migraine/index.html",
+    "static/media/brulant.svg": "/suivi_migraine/static/media/brulant.e574948051ea3ced0fae855685e8fcb3.svg",
+    "static/media/ca_serre.svg": "/suivi_migraine/static/media/ca_serre.88fc5921198f3637b332b748bcb77681.svg",
+    "static/media/autre.svg": "/suivi_migraine/static/media/autre.da082ea84c9ecdece84d03080987624e.svg",
+    "static/media/plus.svg": "/suivi_migraine/static/media/plus.6d6c268fa066dc5fa150348fff5f3d0b.svg",
+    "static/media/chevron-left.svg": "/suivi_migraine/static/media/chevron-left.bead61638de6c48fafcbacc6f19c1a9f.svg",
+    "static/media/triangle.svg": "/suivi_migraine/static/media/triangle.fe0b6ff6d4d4ea50e7b87f3af3f5e5e8.svg",
+    "static/media/decharge_electrique.svg": "/suivi_migraine/static/media/decharge_electrique.c7730e011d8401f85cb6dde4da72d15e.svg",
+    "main.67f87f16.css.map": "/suivi_migraine/static/css/main.67f87f16.css.map",
+    "main.dfff75e8.js.map": "/suivi_migraine/static/js/main.dfff75e8.js.map",
+    "787.f15cc3ff.chunk.js.map": "/suivi_migraine/static/js/787.f15cc3ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67f87f16.css",
+    "static/js/main.dfff75e8.js"
+  ]
+}
