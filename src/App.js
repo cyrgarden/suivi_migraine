@@ -19,7 +19,7 @@ function App() {
     
     <HashRouter>
       <Routes>
-        <Route exact path='/' component={<Home />} />
+        <Route exact path='/suivi_migraine' component={<Home />} />
         <Route exact path ='/login' element={<Login />} />
         <Route exact path='/signup' element ={<SignUp />} />
         <Route exact path='/main' element ={<MainPage />} />
