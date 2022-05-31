@@ -1,4 +1,5 @@
 import {BrowserRouter, BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 import './index.css'
 import Home from './Components/home/Home';
 import Login from './Components/login/Login';
@@ -16,9 +17,9 @@ import Summary from './Components/summary/Summary';
 function App() {
   return (
     
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route exact path='/suivi_migraine' element={<Home />} />
+        <Route exact path='/' component={<Home />} />
         <Route exact path ='/login' element={<Login />} />
         <Route exact path='/signup' element ={<SignUp />} />
         <Route exact path='/main' element ={<MainPage />} />
@@ -30,7 +31,7 @@ function App() {
 
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }
