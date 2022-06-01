@@ -15,7 +15,7 @@ function Home() {
     </header>
 
     <section id="home-section">
-        <Link to='suivi_migraine/signup' className='home-link'><button className="home-button">S'inscrire</button></Link>
+        <Link to='/suivi_migraine/signup' className='home-link'><button className="home-button">S'inscrire</button></Link>
     </section>
 
     <footer id="home-footer">

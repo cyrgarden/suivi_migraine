@@ -136,6 +136,7 @@ function Declencheurs() {
         ).then(res =>{
             console.log(res);
         })
+        alert("Ajouté !!")
         setFinish(true);
 
     };
