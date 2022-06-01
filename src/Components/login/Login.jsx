@@ -56,7 +56,7 @@ function Login() {
     const dispatch = useDispatch();
     
     if (connected){
-        return (<Navigate to="/main" />)
+        return (<Navigate to="suivi_migraine/main" />)
     };
 
     function handleChange(e) {

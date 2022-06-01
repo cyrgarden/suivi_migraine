@@ -20,6 +20,7 @@ function App() {
         <Route exact path='/suivi_migraine' element={<Home />} />
         <Route exact path ='/suivi_migraine/login' element={<Login />} />
         <Route exact path='/suivi_migraine/signup' element ={<SignUp />} />
+        
         <Route exact path='/suivi_migraine/main' element ={<MainPage />} />
         <Route exact path='/suivi_migraine/add' element ={<MigrainesAdder />} />
         <Route exact path='/suivi_migraine/graph' element ={<Graph />} />

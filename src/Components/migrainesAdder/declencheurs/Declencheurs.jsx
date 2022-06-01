@@ -59,7 +59,7 @@ function Declencheurs() {
     const person = useSelector(state => state.InfoReducer)
 
     if (finish){
-      return (<Navigate to="/main" />)
+      return (<Navigate to="/suivi_migraine/main" />)
   };
 
 
