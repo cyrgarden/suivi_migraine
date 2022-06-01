@@ -18,7 +18,7 @@ function SignUp() {
 
     const [validated, setValidated] = useState(false);
 
-    if (connected){
+    if (validated){
         return (<Navigate to="/suivi_migraine/login" />)
     };
 
