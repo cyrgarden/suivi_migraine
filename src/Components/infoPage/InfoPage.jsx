@@ -15,7 +15,7 @@ function InfoPage() {
   const person = useSelector(state => state.InfoReducer);
 
   if (toMigrainesAdder){
-    return (<Navigate to="/add" />)
+    return (<Navigate to="/suivi_migraine/add" />)
   };  
   
   return (
