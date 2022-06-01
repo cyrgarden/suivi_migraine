@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 
 
 
+
 function Home() {
   return (
     <>
@@ -14,13 +15,13 @@ function Home() {
     </header>
 
     <section id="home-section">
-        <Link to='/signup' className='home-link'><button className="home-button">S'inscrire</button></Link>
+        <Link to='suivi_migraine/signup' className='home-link'><button className="home-button">S'inscrire</button></Link>
     </section>
 
     <footer id="home-footer">
         <p className="home-p">Vous avez déjà un compte ?</p>
-        <Link to='/login' className='home-link'> <button className="home-button">S'identifier</button></Link>
-    </footer>
+         <Link to='/suivi_migraine/login' className='home-link'> <button className="home-button">S'identifier</button></Link>
+  </footer>
     
     </>
   )
