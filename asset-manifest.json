@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suivi_migraine/static/css/main.c90c5b29.css",
-    "main.js": "/suivi_migraine/static/js/main.edc9ac36.js",
+    "main.js": "/suivi_migraine/static/js/main.7d1b9607.js",
     "static/js/787.f15cc3ff.chunk.js": "/suivi_migraine/static/js/787.f15cc3ff.chunk.js",
     "static/media/x-redmi-watch-2-lite.png": "/suivi_migraine/static/media/x-redmi-watch-2-lite.c8a1081bbb323f813620.png",
     "static/media/heart.svg": "/suivi_migraine/static/media/heart.e1665c9a590e25b90ecab7ba1358bcc8.svg",
@@ -22,11 +22,11 @@
     "static/media/triangle.svg": "/suivi_migraine/static/media/triangle.fe0b6ff6d4d4ea50e7b87f3af3f5e5e8.svg",
     "static/media/decharge_electrique.svg": "/suivi_migraine/static/media/decharge_electrique.c7730e011d8401f85cb6dde4da72d15e.svg",
     "main.c90c5b29.css.map": "/suivi_migraine/static/css/main.c90c5b29.css.map",
-    "main.edc9ac36.js.map": "/suivi_migraine/static/js/main.edc9ac36.js.map",
+    "main.7d1b9607.js.map": "/suivi_migraine/static/js/main.7d1b9607.js.map",
     "787.f15cc3ff.chunk.js.map": "/suivi_migraine/static/js/787.f15cc3ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c90c5b29.css",
-    "static/js/main.edc9ac36.js"
+    "static/js/main.7d1b9607.js"
   ]
 }
