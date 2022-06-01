@@ -29,11 +29,11 @@ console.log(Store.getState())
 
 root.render(
   <React.StrictMode>
-        <HashRouter>
+        <BrowserRouter>
     <Provider store={Store}>
       <App />
     </Provider>
-    </HashRouter>
+    </BrowserRouter>
 
   </React.StrictMode>
 );
