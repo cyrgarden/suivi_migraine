@@ -5,6 +5,8 @@ import './signup.css'
 import CHEVRON from './assets/chevron-left.svg'
 import {FcGoogle} from 'react-icons/fc'
 import {BsFacebook} from 'react-icons/bs'
+import{Navigate} from "react-router-dom"
+
 
 function SignUp() {
     const [signFields, setSignFieds] = useState({
@@ -13,6 +15,12 @@ function SignUp() {
         password : "",
         checked_password :""
     })
+
+    const [validated, setValidated] = useState(false);
+
+    if (connected){
+        return (<Navigate to="/suivi_migraine/login" />)
+    };
 
     function handleChange(e) {
         const {value, name} = e.target;
@@ -68,7 +76,9 @@ function SignUp() {
                 
             }).then(res =>{
                 console.log(res);
-                console.log("inscription réussie !!")
+                alert("inscription réussie !!")
+                setValidated(true);
+
                 //setFirstDay();
                 
             })
