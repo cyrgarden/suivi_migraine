@@ -68,6 +68,7 @@ function SignUp() {
     function handleSubmit(){
         if (signFields.password === signFields.checked_password){
             console.log("Tout est bon !!")
+            console.log(signFields.password);
 
             axios.post('https://oajwhgh9.directus.app/users', {
                 "first_name" : signFields.nickname,

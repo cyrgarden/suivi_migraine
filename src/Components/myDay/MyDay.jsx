@@ -103,7 +103,7 @@ function MyDay() {
         </div>
         
         <div class="violet-field">
-            <p>Combien de verres d'alcool avez-vous bu ?</p>
+            <p>Combien de tasses de café avez-vous bu ?</p>
             <div class="choices">
                 <div class="counter">
                     <span class="counter-btn" onClick={() => coffee > 0? setCoffee(coffee -1) : setCoffee(0)} >-</span>
