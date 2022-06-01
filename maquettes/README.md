@@ -1,0 +1,1 @@
+![page_accueil](/Desktop/maquettes/page_accueil.png)
