@@ -1,5 +1,6 @@
 import React from 'react';
-import {BrowserRouter, HashRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -29,7 +30,10 @@ console.log(Store.getState())
 root.render(
   <React.StrictMode>
     <Provider store={Store}>
+    <HashRouter>
       <App />
+      </HashRouter>
+
     </Provider>
   </React.StrictMode>
 );

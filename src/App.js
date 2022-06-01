@@ -16,18 +16,15 @@ import Summary from './Components/summary/Summary';
 function App() {
   return (
     
-    <HashRouter>
       <Routes>
-        <Route exact path='/suivi_migraine' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
         <Route exact path ='/login' element={<Login />} />
         <Route exact path='/signup' element ={<SignUp />} />
         <Route exact path='/main' element ={<MainPage />} />
         <Route exact path='/' element ={<MigrainesAdder />} />
         <Route exact path='/graph' element ={<Graph />} />
         <Route exact path='/profil' element ={<Profil />} />
-
       </Routes>
-    </HashRouter>
 
   );
 }
